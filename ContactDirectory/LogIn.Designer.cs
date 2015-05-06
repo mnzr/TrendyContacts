@@ -49,8 +49,10 @@
             // 
             this.inputPassword.Location = new System.Drawing.Point(30, 81);
             this.inputPassword.Name = "inputPassword";
+            this.inputPassword.PasswordChar = '*';
             this.inputPassword.Size = new System.Drawing.Size(100, 20);
             this.inputPassword.TabIndex = 1;
+            this.inputPassword.UseSystemPasswordChar = true;
             // 
             // label1
             // 
